@@ -1,0 +1,180 @@
+/* Background class */
+
+
+/* body class */
+.bg {
+    font-family:verdana;
+    color:#aaaaaa;
+}
+
+
+/* Footer class */
+.footfr {
+    display: flex;
+    margin: 0px;
+}
+
+.footcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex: 30%;
+    text-align: center;
+    background-color: #333
+;
+}
+
+/* Text Class */
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.text {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 10px
+}
+        
+.card p {
+    color: white
+}
+
+.footcard p {
+    color: white
+}
+
+/* Navigation Bar */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+a {
+    color: skyblue;
+}
+
+#sp1 a {
+    color: red;
+}
+
+#sp2 a {
+    color: orange;
+}
+
+#sp3 a {
+    color: skyblue;
+}
+
+#sp4 a {
+    color: lightgreen;
+}
+
+#sp5 a {
+    color: greenyellow;
+}
+
+a:hover { 
+    color: #B79A00
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* heading styles */
+.hdo {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+}
+
+/* containers and divs */
+
+.main {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 0 -10px;
+}
+
+.thirdrow {
+
+    margin: 0;
+    box-sizing: inherit;
+    
+ /*   padding: 10px 5px; */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 16px;
+    text-align: center;
+    background-color: #333;
+    box-sizing: inherit;
+
+}
+.card ul {
+    list-style-type: none;
+}
+
+.card li {
+    padding-bottom:5px;
+}
+
+.logo {
+    max-height: 15vh;
+}
+
+@media screen and (min-width: 700px) {
+    
+.thirdrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.card {
+    flex: 30%;
+}
+    
+.img {
+    max-width: 80%;
+}
+    
+}
+
+.fullrow {
+    flex: 100%;
+    height: auto;
+    padding: 10px 10px;
+    box-sizing: inherit
+}
+
+/* image style */
+.img {
+    max-width: 60%;
+    height: auto;
+    padding: 10px 10px;
+    box-sizing: inherit
+}
+
