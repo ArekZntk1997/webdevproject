@@ -1,0 +1,125 @@
+/* add parameters for elements here */
+
+
+.centre {
+  text-align: center;
+}
+
+/* border-box model */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* responsive images */
+img {
+    max-width:100%; 
+    height: auto;
+}
+
+/* Image sizes */
+
+.image50 {
+    display: block;
+    margin: 0 auto;
+    padding 5px;
+}
+
+image25 {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+}
+
+/* css grid class */
+@media only screen and (max-width: 850px)
+.grid-container {
+    max-width: 100%;
+    margin 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+/* This is the title (H1) class */
+
+.title {
+  background-color: #333;
+  color: white;
+  padding: 5px;
+}
+
+/* This is the Navigation bar class */
+
+.nav {
+  max-width: 100%;
+}
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.nav li {
+  float: left;
+  width: 25%;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* This is the body/content class */
+
+.main {
+    max-width: 100%;
+    background-color: #404040;
+    padding: 0;
+    margin: 0;
+}
+
+.main p {
+    color: white;
+    text-align: center;
+}
+
+.main h2 {
+    color: white;
+}
+/* This is the Footer class */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #333;
+    color: white;
+    width: 100%;
+}
+
+/* styling just the footer links */
+
+.footer a {
+    color: white;
+}
+
+/* changing the separator dot colours */
+
+.footer b {
+    font-weight: normal;
+    color: yellow;
+}
+
